@@ -372,6 +372,7 @@ type PipelineObjectAttributes struct {
 	CreatedAt  customTime `json:"created_at"`
 	FinishedAt customTime `json:"finished_at"`
 	Duration   int64      `json:"duration"`
+	DetailedStatus string `json:"detailed_status"`
 }
 
 // Position defines a specific location, identified by paths line numbers and
